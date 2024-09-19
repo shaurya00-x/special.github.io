@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="https://kit.fontawesome.com/a14ae32021.js" crossorigin="anonymous"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>special gift for chhavuuuu</title>
+
+<style type="text/css">
+@font-face {
+	font-family: digit;
+	src: url('digital-7_mono.ttf') format("truetype");
+}
+</style>
+<link href="css/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/garden.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
+</head>
+
+<body>
+
+<div id="mainDiv">
+	<div id="content">
+		<div id="code">
+			<span class="comments">/**</span><br />
+			<span class="space"/><span class="comments">*something to tell you</span><br />
+			<span class="space"/><span class="comments">*/</span><br />
+			Hello chhavuuuuuuuu my cutie my love <br />
+			lemme tell you something i love you bhot zyada hi like sachi bhot zayda<br />
+			<span class="comments">// itna u can't even think . </span><br />
+			vese jo mrzi bolo dav college and aosc ke krn we r together; <br />
+			<span class="comments">// And who had thought ki hum dono will be a thing like kisne .</span><br />
+			And bhot logon ko ptaa chla toh heart attack waala suprise hoga for them ;<br />
+			And woh sab aside you know how good you make me feel ;<br />
+			tere sath kitna chill rehta mei;<br />
+			u make me feel my brain and heart loved ;<br />
+			You feel like home ;<br />
+			and  you know terko observe krne mei kitna acha lgta mujhe ;<br />
+			<span class="comments">//kisi ne terko btaya hai kitni mze daar hai tu all the little things you do kitni cute lgti tb tu .</span><br />
+			mei na likhna bhot kuch chata hun but idhr zyada likh nhi skta  so i will cut short ;<br />
+			<br>
+			<br>
+			All I want to say is:<br />
+			chhavuuuu, i love you so much and i will love you forever ;<br />
+			<br>
+			<br>
+			vese yeh button pe dabayi<br />
+			<br>
+			<span id="heartspan">
+			<a href="image.jpg"><i class="fas fa-heart" id="icon"></i></a>
+			</span>
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					💝😘🥰
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					I LOVE YOU SO MUCH<br/>
+					<div class="signature">- Shauryaaaa<br>(ur honey🫣)....</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+var together = new Date();
+together.setFullYear(2024, 5, 27);
+together.setHours(17);
+together.setMinutes(51);
+together.setSeconds(0);
+together.setMilliseconds(0);
+
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	document.body.appendChild(msg);
+	$("#code").css("display", "none")
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	setTimeout(function () {
+		startHeartAnimation();
+	}, 5000);
+
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
+
+	adjustCodePosition();
+	$("#code").typewriter();
+}
+</script>
+</body>
+</html>
